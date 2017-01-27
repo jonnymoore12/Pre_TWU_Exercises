@@ -15,8 +15,8 @@ public class Triangle {
 
     public String rightTriangle(int height) {
         String triangle = "";
-        for (int currentLine = 1; currentLine <= height; currentLine++) {
-            triangle += repeatString("*", currentLine) + "\n";
+        for (int currentRow = 1; currentRow <= height; currentRow++) {
+            triangle += repeatString("*", currentRow) + "\n";
         }
         return stripFinalCharacter(triangle);
     }
@@ -49,28 +49,30 @@ public class Triangle {
         String isosceles = "";
 
         if (ascending == true) {
-            for (int currentLine = startLine; currentLine <= totalHeight; currentLine++) {
-                isosceles += repeatString(" ", spaceLength(totalHeight, currentLine)) + padding;
-                isosceles += repeatString("*", starLength(currentLine));
-                isosceles += repeatString(" ", spaceLength(totalHeight, currentLine)) + padding + "\n";
+            for (int currentRow = startLine; currentRow <= totalHeight; currentRow++) {
+                isosceles += drawIsoscelesRow(currentRow, totalHeight, padding);
             }
         } else {
-            for (int currentLine = startLine; currentLine >= 1; currentLine--) {
-                isosceles += repeatString(" ", spaceLength(totalHeight, currentLine));
-                isosceles += repeatString("*", starLength(currentLine));
-                isosceles += repeatString(" ", spaceLength(totalHeight, currentLine)) + "\n";
+            for (int currentRow = startLine; currentRow >= 1; currentRow--) {
+                isosceles += drawIsoscelesRow(currentRow, totalHeight, padding);
             }
         }
-
         return stripFinalCharacter(isosceles);
     }
 
-    private int starLength(int currentLine) {
-        return 2 * currentLine - 1;
+    private String drawIsoscelesRow(int currentRow, int totalHeight, String padding) {
+        String text = "";
+        text += repeatString(" ", spaceLength(totalHeight, currentRow)) + padding;
+        text += repeatString("*", starLength(currentRow));
+        text += repeatString(" ", spaceLength(totalHeight, currentRow)) + padding + "\n";
+        return text;
     }
 
-    private int spaceLength(int totalHeight, int currentLine) {
-        return totalHeight - currentLine;
+    private int starLength(int currentRow) {
+        return 2 * currentRow - 1;
     }
 
+    private int spaceLength(int totalHeight, int currentRow) {
+        return totalHeight - currentRow;
+    }
 }
