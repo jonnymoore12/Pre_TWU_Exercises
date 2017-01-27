@@ -3,9 +3,21 @@ public class Triangle {
         System.out.print("*");
     }
 
-    public void horizontalLine(int i) {
-        for (int j = 0; j < i; j++) {
-            System.out.print("*");
+    // I've decided to allow the next few methods to return instead of PRINT to console
+    // to save me from repeatedly testing outContent (I fancied TDD-ing these):
+    public String horizontalLine(int repetitions) {
+        return repeatString("*", repetitions);
+    }
+
+    public String verticalLine(int repetitions) {
+        return repeatString("*\n", repetitions);
+    }
+
+    private String repeatString(String str, int repetitions) {
+        String total = "";
+        for (int i = 0; i < repetitions; i++) {
+            total += str;
         }
+        return total;
     }
 }

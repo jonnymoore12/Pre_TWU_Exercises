@@ -19,11 +19,12 @@ public class TriangleTest {
 
     @Test
     public void horizontalLine_PrintsLineOfLengthTen() {
-        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(outContent));
+        assertEquals("**********", triangle.horizontalLine(10));
+    }
 
-        triangle.horizontalLine(10);
-        assertEquals("**********", outContent.toString());
+    @Test
+    public void verticalLine_ReturnsALineofLengthFive() throws Exception {
+        assertEquals("*\n*\n*\n*\n*\n", triangle.verticalLine(5));
     }
 
 }
