@@ -10,7 +10,7 @@ public class Triangle {
     }
 
     public String verticalLine(int repetitions) {
-        return repeatString("*\n", repetitions);
+        return stripFinalCharacter(repeatString("*\n", repetitions));
     }
 
     public String rightTriangle(int height) {
@@ -19,7 +19,7 @@ public class Triangle {
             triangle += repeatString("*", i);
             triangle += "\n";
         }
-        return triangle;
+        return stripFinalCharacter(triangle);
     }
 
     private String repeatString(String str, int repetitions) {
@@ -28,5 +28,9 @@ public class Triangle {
             total += str;
         }
         return total;
+    }
+
+    private String stripFinalCharacter(String input) {
+        return input.substring(0,input.length()-1);
     }
 }

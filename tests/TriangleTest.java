@@ -24,11 +24,11 @@ public class TriangleTest {
 
     @Test
     public void verticalLine_DrawsLineofLengthFive() throws Exception {
-        assertEquals("*\n*\n*\n*\n*\n", triangle.verticalLine(5));
+        assertEquals("*\n*\n*\n*\n*", triangle.verticalLine(5));
     }
 
     @Test
     public void rightTriangle_DrawsRightTriangleHeightThree() throws Exception {
-        assertEquals("*\n**\n***\n", triangle.rightTriangle(3));
+        assertEquals("*\n**\n***", triangle.rightTriangle(3));
     }
 }
