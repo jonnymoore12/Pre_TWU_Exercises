@@ -30,6 +30,15 @@ public class Triangle {
         return stripFinalCharacter(isosceles);
     }
 
+    public String diamond(int height) {
+        String diamond = isosceles(height) + "\n";
+        for (int currentLine = height-1; currentLine >= 1; currentLine--) {
+            diamond += repeatString(" ", height-currentLine) + repeatString("*", 2*currentLine-1);
+            diamond += repeatString(" ", height-currentLine) + "\n";
+        }
+        return stripFinalCharacter(diamond);
+    }
+
     private String repeatString(String str, int repetitions) {
         String total = "";
         for (int i = 0; i < repetitions; i++) {
@@ -41,4 +50,6 @@ public class Triangle {
     private String stripFinalCharacter(String input) {
         return input.substring(0,input.length()-1);
     }
+
+
 }

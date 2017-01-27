@@ -23,7 +23,7 @@ public class TriangleTest {
     }
 
     @Test
-    public void verticalLine_DrawsLineofLengthFive() throws Exception {
+    public void verticalLine_DrawsLineOfLengthFive() throws Exception {
         assertEquals("*\n*\n*\n*\n*", shape.verticalLine(5));
     }
 
@@ -35,5 +35,10 @@ public class TriangleTest {
     @Test
     public void isosceles_DrawsIsoscelesHeightFour() throws Exception {
         assertEquals("   *   \n  ***  \n ***** \n*******", shape.isosceles(4));
+    }
+
+    @Test
+    public void diamond_DrawsDiamondHeightThree() throws Exception {
+        assertEquals("  *  \n *** \n*****\n *** \n  *  ", shape.diamond(3));
     }
 }
