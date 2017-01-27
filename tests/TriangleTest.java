@@ -18,13 +18,17 @@ public class TriangleTest {
     }
 
     @Test
-    public void horizontalLine_PrintsLineOfLengthTen() {
+    public void horizontalLine_DrawsLineOfLengthTen() {
         assertEquals("**********", triangle.horizontalLine(10));
     }
 
     @Test
-    public void verticalLine_ReturnsALineofLengthFive() throws Exception {
+    public void verticalLine_DrawsLineofLengthFive() throws Exception {
         assertEquals("*\n*\n*\n*\n*\n", triangle.verticalLine(5));
     }
 
+    @Test
+    public void rightTriangle_DrawsRightTriangleHeightThree() throws Exception {
+        assertEquals("*\n**\n***\n", triangle.rightTriangle(3));
+    }
 }

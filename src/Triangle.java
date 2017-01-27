@@ -13,6 +13,15 @@ public class Triangle {
         return repeatString("*\n", repetitions);
     }
 
+    public String rightTriangle(int height) {
+        String triangle = "";
+        for (int i = 1; i <= height; i++) {
+            triangle += repeatString("*", i);
+            triangle += "\n";
+        }
+        return triangle;
+    }
+
     private String repeatString(String str, int repetitions) {
         String total = "";
         for (int i = 0; i < repetitions; i++) {
