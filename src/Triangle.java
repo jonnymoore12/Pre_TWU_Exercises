@@ -15,11 +15,19 @@ public class Triangle {
 
     public String rightTriangle(int height) {
         String triangle = "";
-        for (int i = 1; i <= height; i++) {
-            triangle += repeatString("*", i);
-            triangle += "\n";
+        for (int currentLine = 1; currentLine <= height; currentLine++) {
+            triangle += repeatString("*", currentLine) + "\n";
         }
         return stripFinalCharacter(triangle);
+    }
+
+    public String isosceles(int height) {
+        String isosceles = "";
+        for (int currentLine = 1; currentLine <= height; currentLine++) {
+            isosceles += repeatString(" ", height-currentLine) + repeatString("*", 2*currentLine-1);
+            isosceles += repeatString(" ", height-currentLine) + "\n";
+        }
+        return stripFinalCharacter(isosceles);
     }
 
     private String repeatString(String str, int repetitions) {
