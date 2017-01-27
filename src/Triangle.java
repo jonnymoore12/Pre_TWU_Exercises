@@ -21,33 +21,16 @@ public class Triangle {
         return stripFinalCharacter(triangle);
     }
 
-//    public String isosceles(int height) {
-//        String isosceles = "";
-//
-//        for (int currentLine = 1; currentLine <= height; currentLine++) {
-//            int spaceLength = height - currentLine;
-//            int starLength = 2 * currentLine - 1;
-//            isosceles += repeatString(" ", spaceLength) + repeatString("*", starLength);
-//            isosceles += repeatString(" ", spaceLength) + "\n";
-//        }
-//        return stripFinalCharacter(isosceles);
-//    }
-
     public String isosceles(int height) {
-        return isoscelesGenerator(1, true, height);
+        return isoscelesGenerator(1, true, height, "");
     }
 
-//    public String diamond(int height) {
-//        String diamond = isosceles(height) + "\n";
-//        for (int currentLine = height-1; currentLine >= 1; currentLine--) {
-//            diamond += repeatString(" ", height-currentLine) + repeatString("*", 2*currentLine-1);
-//            diamond += repeatString(" ", height-currentLine) + "\n";
-//        }
-//        return stripFinalCharacter(diamond);
-//    }
-
     public String diamond(int height) {
-        return isoscelesGenerator(1, true, height) + "\n" + isoscelesGenerator(height-1, false, height);
+        return isoscelesGenerator(1, true, height, "") + "\n" + isoscelesGenerator(height-1, false, height, "");
+    }
+
+    public String diamondWithName(int height, String name) {
+        return isoscelesGenerator(1, true, height-1, " ") + "\n" + name + "\n" + isoscelesGenerator(height-1, false, height, "");
     }
 
     private String repeatString(String str, int repetitions) {
@@ -62,14 +45,14 @@ public class Triangle {
         return input.substring(0,input.length()-1);
     }
 
-    private String isoscelesGenerator(int startLine, boolean ascending, int totalHeight) {
+    private String isoscelesGenerator(int startLine, boolean ascending, int totalHeight, String padding) {
         String isosceles = "";
 
         if (ascending == true) {
             for (int currentLine = startLine; currentLine <= totalHeight; currentLine++) {
-                isosceles += repeatString(" ", spaceLength(totalHeight, currentLine));
+                isosceles += repeatString(" ", spaceLength(totalHeight, currentLine)) + padding;
                 isosceles += repeatString("*", starLength(currentLine));
-                isosceles += repeatString(" ", spaceLength(totalHeight, currentLine)) + "\n";
+                isosceles += repeatString(" ", spaceLength(totalHeight, currentLine)) + padding + "\n";
             }
         } else {
             for (int currentLine = startLine; currentLine >= 1; currentLine--) {

@@ -4,6 +4,7 @@
     <list default="true" id="bfb68b52-bcbf-48cb-b651-91268a56f749" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Triangle.java" afterPath="$PROJECT_DIR$/src/Triangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TriangleTest.java" afterPath="$PROJECT_DIR$/tests/TriangleTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,19 +26,19 @@
       <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="49" column="60" lean-forward="false" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+            <state relative-caret-position="-95">
+              <caret line="32" column="124" lean-forward="false" selection-start-line="32" selection-start-column="124" selection-end-line="32" selection-end-column="124" />
               <folding>
                 <element signature="e#420#421#0" expanded="true" />
                 <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#1304#1305#0" expanded="true" />
-                <element signature="e#1362#1363#0" expanded="true" />
-                <element signature="e#2186#2187#0" expanded="true" />
-                <element signature="e#2244#2245#0" expanded="true" />
-                <element signature="e#3237#3238#0" expanded="true" />
-                <element signature="e#3279#3280#0" expanded="true" />
-                <element signature="e#3344#3345#0" expanded="true" />
-                <element signature="e#3392#3393#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#1494#1495#0" expanded="true" />
+                <element signature="e#1552#1553#0" expanded="true" />
+                <element signature="e#2581#2582#0" expanded="true" />
+                <element signature="e#2623#2624#0" expanded="true" />
+                <element signature="e#2688#2689#0" expanded="true" />
+                <element signature="e#2736#2737#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,11 +47,8 @@
       <file leaf-file-name="TriangleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/TriangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="40" column="49" lean-forward="false" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-              <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-              <caret line="30" column="61" lean-forward="false" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
-              <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+            <state relative-caret-position="-140">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#487#488#0" expanded="true" />
@@ -493,21 +491,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TriangleTest - 2017.01.27 at 16h 22m 21s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TriangleTest - 2017.01.27 at 16h 23m 39s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TriangleTest - 2017.01.27 at 16h 34m 56s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TriangleTest - 2017.01.27 at 16h 43m 25s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TriangleTest - 2017.01.27 at 16h 45m 54s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TriangleTest - 2017.01.27 at 16h 48m 39s.xml">
       <configuration name="TriangleTest" configurationId="JUnit" />
     </history-entry>
@@ -521,6 +504,21 @@
       <configuration name="TriangleTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TriangleTest - 2017.01.27 at 17h 00m 55s.xml">
+      <configuration name="TriangleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TriangleTest - 2017.01.27 at 17h 33m 17s.xml">
+      <configuration name="TriangleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TriangleTest - 2017.01.27 at 17h 36m 08s.xml">
+      <configuration name="TriangleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TriangleTest - 2017.01.27 at 17h 37m 08s.xml">
+      <configuration name="TriangleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TriangleTest - 2017.01.27 at 17h 45m 30s.xml">
+      <configuration name="TriangleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TriangleTest - 2017.01.27 at 17h 48m 02s.xml">
       <configuration name="TriangleTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -549,7 +547,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -578,14 +576,14 @@
           <folding>
             <element signature="e#420#421#0" expanded="true" />
             <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-            <element signature="e#3237#3238#0" expanded="true" />
-            <element signature="e#3279#3280#0" expanded="true" />
-            <element signature="e#3344#3345#0" expanded="true" />
-            <element signature="e#3392#3393#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#2581#2582#0" expanded="true" />
+            <element signature="e#2623#2624#0" expanded="true" />
+            <element signature="e#2688#2689#0" expanded="true" />
+            <element signature="e#2736#2737#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -614,14 +612,14 @@
           <folding>
             <element signature="e#420#421#0" expanded="true" />
             <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-            <element signature="e#3237#3238#0" expanded="true" />
-            <element signature="e#3279#3280#0" expanded="true" />
-            <element signature="e#3344#3345#0" expanded="true" />
-            <element signature="e#3392#3393#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#2581#2582#0" expanded="true" />
+            <element signature="e#2623#2624#0" expanded="true" />
+            <element signature="e#2688#2689#0" expanded="true" />
+            <element signature="e#2736#2737#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -631,11 +629,8 @@
     <entry file="file://$PROJECT_DIR$/tests/TriangleTest.groovy" />
     <entry file="file://$PROJECT_DIR$/tests/TriangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="40" column="49" lean-forward="false" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-          <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-          <caret line="30" column="61" lean-forward="false" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
-          <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        <state relative-caret-position="-140">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#487#488#0" expanded="true" />
@@ -650,19 +645,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="49" column="60" lean-forward="false" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+        <state relative-caret-position="-95">
+          <caret line="32" column="124" lean-forward="false" selection-start-line="32" selection-start-column="124" selection-end-line="32" selection-end-column="124" />
           <folding>
             <element signature="e#420#421#0" expanded="true" />
             <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-            <element signature="e#3237#3238#0" expanded="true" />
-            <element signature="e#3279#3280#0" expanded="true" />
-            <element signature="e#3344#3345#0" expanded="true" />
-            <element signature="e#3392#3393#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#2581#2582#0" expanded="true" />
+            <element signature="e#2623#2624#0" expanded="true" />
+            <element signature="e#2688#2689#0" expanded="true" />
+            <element signature="e#2736#2737#0" expanded="true" />
           </folding>
         </state>
       </provider>

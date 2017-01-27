@@ -41,4 +41,9 @@ public class TriangleTest {
     public void diamond_DrawsDiamondHeightThree() {
         assertEquals("  *  \n *** \n*****\n *** \n  *  ", shape.diamond(3));
     }
+
+    @Test
+    public void diamondWithName_DrawsDiamondHeightThreeAndPrintsNameAlfred() {
+        assertEquals("  *  \n *** \nAlfred\n *** \n  *  ", shape.diamondWithName(3, "Alfred"));
+    }
 }
