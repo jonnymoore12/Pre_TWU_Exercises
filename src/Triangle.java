@@ -21,13 +21,20 @@ public class Triangle {
         return stripFinalCharacter(triangle);
     }
 
+//    public String isosceles(int height) {
+//        String isosceles = "";
+//
+//        for (int currentLine = 1; currentLine <= height; currentLine++) {
+//            int spaceLength = height - currentLine;
+//            int starLength = 2 * currentLine - 1;
+//            isosceles += repeatString(" ", spaceLength) + repeatString("*", starLength);
+//            isosceles += repeatString(" ", spaceLength) + "\n";
+//        }
+//        return stripFinalCharacter(isosceles);
+//    }
+
     public String isosceles(int height) {
-        String isosceles = "";
-        for (int currentLine = 1; currentLine <= height; currentLine++) {
-            isosceles += repeatString(" ", height-currentLine) + repeatString("*", 2*currentLine-1);
-            isosceles += repeatString(" ", height-currentLine) + "\n";
-        }
-        return stripFinalCharacter(isosceles);
+        return isoscelesGenerator(1, true, height);
     }
 
     public String diamond(int height) {
@@ -51,5 +58,32 @@ public class Triangle {
         return input.substring(0,input.length()-1);
     }
 
+    private String isoscelesGenerator(int startLine, boolean ascending, int totalHeight) {
+        String isosceles = "";
+
+        if (ascending == true) {
+            for (int currentLine = startLine; currentLine <= totalHeight; currentLine++) {
+                isosceles += repeatString(" ", spaceLength(totalHeight, currentLine));
+                isosceles += repeatString("*", starLength(currentLine));
+                isosceles += repeatString(" ", spaceLength(totalHeight, currentLine)) + "\n";
+            }
+        } else {
+            for (int currentLine = startLine; currentLine >= 1; currentLine--) {
+                isosceles += repeatString(" ", spaceLength(totalHeight, currentLine));
+                isosceles += repeatString("*", starLength(currentLine));
+                isosceles += repeatString(" ", spaceLength(totalHeight, currentLine)) + "\n";
+            }
+        }
+
+        return stripFinalCharacter(isosceles);
+    }
+
+    private int starLength(int currentLine) {
+        return 2 * currentLine - 1;
+    }
+
+    private int spaceLength(int totalHeight, int currentLine) {
+        return totalHeight - currentLine;
+    }
 
 }
