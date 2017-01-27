@@ -37,13 +37,17 @@ public class Triangle {
         return isoscelesGenerator(1, true, height);
     }
 
+//    public String diamond(int height) {
+//        String diamond = isosceles(height) + "\n";
+//        for (int currentLine = height-1; currentLine >= 1; currentLine--) {
+//            diamond += repeatString(" ", height-currentLine) + repeatString("*", 2*currentLine-1);
+//            diamond += repeatString(" ", height-currentLine) + "\n";
+//        }
+//        return stripFinalCharacter(diamond);
+//    }
+
     public String diamond(int height) {
-        String diamond = isosceles(height) + "\n";
-        for (int currentLine = height-1; currentLine >= 1; currentLine--) {
-            diamond += repeatString(" ", height-currentLine) + repeatString("*", 2*currentLine-1);
-            diamond += repeatString(" ", height-currentLine) + "\n";
-        }
-        return stripFinalCharacter(diamond);
+        return isoscelesGenerator(1, true, height) + "\n" + isoscelesGenerator(height-1, false, height);
     }
 
     private String repeatString(String str, int repetitions) {
