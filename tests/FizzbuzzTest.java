@@ -22,7 +22,7 @@ public class FizzbuzzTest {
     }
 
     @Test
-    public void evaluate_ReturnsOriginalNumberIfNumberNotMulitpleOfThreeOrFive() throws Exception {
+    public void evaluate_ReturnsOriginalNumberIfNumberNotMulitpleOfThreeOrFive() {
         assertEquals(1, fizzbuzz.evaluate(1));
     }
 }
