@@ -1,6 +1,8 @@
+package com.jonny.pre_twu_exercises;
+
+import com.jonny.pre_twu_exercises.Fizzbuzz;
 import org.junit.Test;
 import static org.junit.Assert.*;
-
 
 public class FizzbuzzTest {
 

@@ -1,7 +1,9 @@
+package com.jonny.pre_twu_exercises;
+
+import com.jonny.pre_twu_exercises.Triangle;
 import org.junit.Test;
 import java.io.*;
 import static org.junit.Assert.*;
-
 
 public class TriangleTest {
 

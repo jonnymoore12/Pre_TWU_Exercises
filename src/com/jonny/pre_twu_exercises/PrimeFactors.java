@@ -1,3 +1,5 @@
+package com.jonny.pre_twu_exercises;
+
 import java.util.*;
 
 public class PrimeFactors {

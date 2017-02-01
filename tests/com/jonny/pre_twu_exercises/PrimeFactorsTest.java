@@ -1,3 +1,6 @@
+package com.jonny.pre_twu_exercises;
+
+import com.jonny.pre_twu_exercises.PrimeFactors;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.*;

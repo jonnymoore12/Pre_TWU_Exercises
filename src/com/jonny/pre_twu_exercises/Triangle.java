@@ -1,3 +1,5 @@
+package com.jonny.pre_twu_exercises;
+
 public class Triangle {
     public void easiestExercise() {
         System.out.print("*");
