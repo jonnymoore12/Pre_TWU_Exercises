@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfb68b52-bcbf-48cb-b651-91268a56f749" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Pre_TWU_Exercises/com/jonny/pre_twu_exercises/Fizzbuzz.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Pre_TWU_Exercises/com/jonny/pre_twu_exercises/PrimeFactors.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Pre_TWU_Exercises/com/jonny/pre_twu_exercises/Triangle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/Pre_TWU_Exercises/com/jonny/pre_twu_exercises/FizzbuzzTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/Pre_TWU_Exercises/com/jonny/pre_twu_exercises/PrimeFactorsTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/Pre_TWU_Exercises/com/jonny/pre_twu_exercises/TriangleTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jonny/pre_twu_exercises/Fizzbuzz.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pre_TWU_Exercises/Fizzbuzz.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pre_TWU_Exercises/PrimeFactors.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pre_TWU_Exercises/Triangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/Pre_TWU_Exercises/FizzbuzzTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/Pre_TWU_Exercises/PrimeFactorsTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/Pre_TWU_Exercises/TriangleTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Fizzbuzz.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/PrimeFactors.java" afterPath="$PROJECT_DIR$/src/com/jonny/pre_twu_exercises/PrimeFactors.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Triangle.java" afterPath="$PROJECT_DIR$/src/com/jonny/pre_twu_exercises/Triangle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/FizzbuzzTest.java" afterPath="$PROJECT_DIR$/tests/com/jonny/pre_twu_exercises/FizzbuzzTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/PrimeFactorsTest.java" afterPath="$PROJECT_DIR$/tests/com/jonny/pre_twu_exercises/PrimeFactorsTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/TriangleTest.java" afterPath="$PROJECT_DIR$/tests/com/jonny/pre_twu_exercises/TriangleTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -105,11 +86,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriangleTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TriangleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/com/jonny/pre_twu_exercises/TriangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+              <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -157,6 +148,7 @@
         <option value="$PROJECT_DIR$/tests/com/jonny/pre_twu_exercises/TriangleTest.java" />
         <option value="$PROJECT_DIR$/tests/com/jonny/pre_twu_exercises/FizzbuzzTest.java" />
         <option value="$PROJECT_DIR$/src/com/jonny/pre_twu_exercises/Fizzbuzz.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -910,7 +902,15 @@
     <entry file="file://$PROJECT_DIR$/tests/com/jonny/pre_twu_exercises/TriangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
